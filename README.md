@@ -3,7 +3,7 @@
 To use the website, through scrolling up and down. To see the two SVG, click on visualization on the top right of the navbar. To go back to the home page of Irina's profile, click on home.
 
 
-Citation
+Citations
 
 DM sans font:
 https://fonts.google.com/specimen/DM+Sans
@@ -75,21 +75,8 @@ window.addEventListener("scroll", () => {
   drawWave(dynamicFrequency);
 });
 
-ChatGPT
-As this code originall similar to lab code, modified to make it different to provide mouse hovering interactivity with Javascript
-Prompt: have the mouse hover instead of click
-
-let education = document.querySelectorAll(".education");
-console.log();
-
-education.forEach((education) => {
-    education.addEventListener("mouseover", () => {
-        education.style.color = "blue";
-    });
-    education.addEventListener("mouseout", () => {
-        education.style.color = "";
-    });
-});
+Changing colour of the shape using JS: 
+https://stackoverflow.com/questions/58148188/random-color-on-mouse-hover
 
 ChatGPT
 Prompt: how to add text into centered circle of SVG

@@ -1,13 +1,24 @@
-// this makes the education section turn blue when hover
+console.log("main.js is connected");
 
-let education = document.querySelectorAll(".education");
-console.log();
+let circles = document.querySelectorAll(".circles svg circle");
 
-education.forEach((education) => {
-    education.addEventListener("mouseover", () => {
-        education.style.color = "blue";  
-    });
-    education.addEventListener("mouseout", () => {
-        education.style.color = "";  
-    });
+function getColor() {
+  const letters = "0123456789ABCDEF";
+  let color = "#";
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
+circles.forEach((circle) => {
+  const originalFill = circle.getAttribute("fill");
+
+  circle.addEventListener("mouseover", () => {
+    circle.setAttribute("fill", getColor());
+  });
+
+  circle.addEventListener("mouseout", () => {
+    circle.setAttribute("fill", getColor());
+  });
 });

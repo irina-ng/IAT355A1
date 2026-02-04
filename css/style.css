@@ -135,11 +135,12 @@ p {
   margin-top: 5rem;
 }
 
-.space{
-  padding-bottom: 10rem;
-}
 
 #SVG-java a {
    margin-left: 5rem;
 }
 
+#random-circles h2{
+    margin-left: 5rem;
+  margin-top: 5rem;
+}
