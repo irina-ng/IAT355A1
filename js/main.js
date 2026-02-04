@@ -1,3 +1,5 @@
+// this makes the education section turn blue when hover
+
 let education = document.querySelectorAll(".education");
 console.log();
 

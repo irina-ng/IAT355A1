@@ -40,7 +40,7 @@ function waveCreator() {
 
 waveCreator();
 
-// SCROLL mouse that changes frequency of the wave
+// the mouse SCROLLS that changes frequency of the wave
 window.addEventListener("scroll", () => {
   const scrollTop = window.scrollY;
   const maxScroll = document.body.scrollHeight - window.innerHeight;
