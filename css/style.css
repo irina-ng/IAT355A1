@@ -2,9 +2,16 @@ img{
      display: block;
     max-width:100%;
     height: auto;
+    border-radius: 1.5rem;
 }
 
 ul{
     text-decoration: none;
+}
+
+.project-experience.two-column{
+       display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap:1rem;
 }
 
