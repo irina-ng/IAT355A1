@@ -75,4 +75,20 @@ window.addEventListener("scroll", () => {
   drawWave(dynamicFrequency);
 });
 
+ChatGPT 
+As this code originall similar to lab code, modified to make it different to provide mouse hovering interactivity with Javascript
+Prompt: have the mouse hover instead of click
+
+let education = document.querySelectorAll(".education");
+console.log();
+
+education.forEach((education) => {
+    education.addEventListener("mouseover", () => {
+        education.style.color = "blue";  
+    });
+    education.addEventListener("mouseout", () => {
+        education.style.color = "";  
+    });
+});
+
 -->

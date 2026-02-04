@@ -119,8 +119,16 @@ h3{
 }
 
 
+/* visualization page */
 
 
+
+
+
+#SVG-html , #SVG-java {
+    margin: 2rem;
+    max-width: 100%;
+}
 
 
 
