@@ -129,7 +129,7 @@ p {
 
 /* visualization page */
 
-#SVG-html h2,
+#SVG-html h2,#SVG-html h1,
 #SVG-java h2 {
   margin-left: 5rem;
   margin-top: 5rem;

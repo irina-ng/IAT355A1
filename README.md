@@ -5,6 +5,8 @@ To use the website, through scrolling up and down. To see the two SVG, click on 
 
 Citation
 
+DM sans font:
+https://fonts.google.com/specimen/DM+Sans
 
 nav bar
 https://www.w3schools.com/css/css_navbar.asp
